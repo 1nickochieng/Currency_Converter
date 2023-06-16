@@ -2,7 +2,7 @@ def main():
     print("This program converts US dollars to Sterling Pounds")
     print()
     
-    dollars = eval(input("Enter amount in dollars: "))
+    dollars = eval(input("Enter amount in shillings: "))
     
     pounds = convert_to_pounds(dollars)
     

@@ -1,13 +1,13 @@
 def main():
-    print("This program converts US dollars to Sterling Pounds")
+    print("This program converts US dollars to Kenya Shillings")
     print()
     
-    dollars = eval(input("Enter amount in shillings: "))
+    dollars = eval(input("Enter amount in Kenyan shillings: "))
     
-    pounds = convert_to_pounds(dollars)
+    pounds = convert_to_shillings(dollars)
     
-    print("That is", pounds, "pounds.")
+    print("That is", shillings, "shillings.")
     
-convert_to_pounds = lambda dollars: dollars * 0.82
+convert_to_shillings = lambda dollars: dollars * 0.82
 
 main()
